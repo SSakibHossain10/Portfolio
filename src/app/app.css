@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: var(--color-teal-50);
+  --color-primary-100: var(--color-teal-100);
+  --color-primary-200: var(--color-teal-200);
+  --color-primary-300: var(--color-teal-300);
+  --color-primary-400: var(--color-teal-400);
+  --color-primary-500: var(--color-teal-500);
+  --color-primary-600: var(--color-teal-600);
+  --color-primary-700: var(--color-teal-700);
+  --color-primary-800: var(--color-teal-800);
+  --color-primary-900: var(--color-teal-900);
+  --color-primary-950: var(--color-teal-950);
+}
+
+@layer base {
+  :root {
+    --gradient-angle: 150deg;
+    @apply scheme-dark;
+  }
+  * {
+    @apply m-0 p-0 box-border;
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(
+        in oklab,
+        var(--color-primary-200) 50%,
+        transparent
+      )
+      color-mix(in oklab, var(--color-primary-100) 5%, transparent);
+  }
+  html {
+    @apply max-w-screen overflow-hidden;
+  }
+  body {
+    @apply text-primary-300 bg-primary-gradient;
+  }
+  h1 {
+    @apply text-3xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+  h4 {
+    @apply text-lg;
+  }
+  h5 {
+    @apply text-base;
+  }
+  h6 {
+    @apply text-sm;
+  }
+  p {
+    @apply text-xs;
+  }
+  span {
+    @apply text-2xs;
+  }
+  small {
+    @apply text-2xs;
+  }
+}
+
+@utility text-2xs {
+  font-size: 8px;
+  line-height: 10px;
+}
+
+@utility bg-primary-gradient {
+  background: linear-gradient(
+    var(--gradient-angle),
+    rgb(0 48 46 / 100%),
+    rgb(0 8 34 / 100%),
+    rgb(0 45 39 / 100%),
+    rgb(0 11 47 / 100%)
+  );
+}
