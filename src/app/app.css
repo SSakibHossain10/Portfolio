@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @theme {
+  --spacing: 0.063rem;
   --color-primary-50: var(--color-teal-50);
   --color-primary-100: var(--color-teal-100);
   --color-primary-200: var(--color-teal-200);
@@ -30,10 +31,8 @@
       color-mix(in oklab, var(--color-primary-100) 5%, transparent);
   }
   html {
-    @apply max-w-screen overflow-hidden;
-  }
-  body {
-    @apply text-primary-300 bg-primary-gradient;
+    @apply max-w-screen overflow-auto scroll-smooth;
+    font-family: system-ui;
   }
   h1 {
     @apply text-3xl;
@@ -62,6 +61,16 @@
   small {
     @apply text-2xs;
   }
+  button {
+    @apply cursor-pointer;
+  }
+  dialog {
+    @apply text-primary-300;
+  }
+}
+
+@utility text-size-inherit {
+  font-size: inherit;
 }
 
 @utility text-2xs {
@@ -69,12 +78,55 @@
   line-height: 10px;
 }
 
+@utility last-align-end {
+  text-align-last: end;
+}
+
 @utility bg-primary-gradient {
   background: linear-gradient(
     var(--gradient-angle),
-    rgb(0 48 46 / 100%),
-    rgb(0 8 34 / 100%),
-    rgb(0 45 39 / 100%),
-    rgb(0 11 47 / 100%)
+    rgb(0 48 46),
+    rgb(0 8 34),
+    rgb(0 48 46),
+    rgb(0 11 47)
   );
+}
+
+@utility contribution-bg-color-0 {
+  @apply bg-primary-900;
+}
+@utility contribution-bg-color-1 {
+  @apply bg-primary-600;
+}
+@utility contribution-bg-color-2 {
+  @apply bg-primary-500;
+}
+@utility contribution-bg-color-3 {
+  @apply bg-primary-400;
+}
+@utility contribution-bg-color-4 {
+  @apply bg-primary-300;
+}
+
+@utility scrollbar-hidden {
+  /* For WebKit browsers (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  /* For Internet Explorer, Edge */
+  -ms-overflow-style: none;
+  /* For Firefox */
+  scrollbar-width: none;
+}
+
+@utility popover-scale-animation {
+  @apply scale-0 transition-all transition-discrete ease-out duration-100;
+
+  &:popover-open {
+    @apply scale-100;
+
+    @starting-style {
+      @apply scale-0;
+    }
+  }
 }
