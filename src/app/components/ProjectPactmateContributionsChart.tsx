@@ -1,6 +1,145 @@
 const ProjectPactmateContributionsChart = () => {
   return (
-    <div className="shrink-0 flex items-center justify-evenly gap-18">
+    <div className="shrink-0 flex items-center justify-evenly gap-28">
+      <svg
+        className="block"
+        xmlns="http://www.w3.org/2000/svg"
+        width="150"
+        viewBox="0 0 196 172"
+      >
+        <title>
+          A graph representing SSakibHossain10's contributions from May 3, 2024
+          to June 2, 2024. The contributions are 52% commits, 33% pull requests,
+          13% issues, 2% code review.
+        </title>
+        <g transform="translate(-18.25, -38.453125)">
+          <path
+            strokeLinejoin="round"
+            opacity="0.5"
+            strokeWidth="7"
+            className="fill-primary-400 stroke-primary-400"
+            d="M125,123.17127403846155 L132.88671875,125 L125,151.1739783653846 L81.453125,125 z"
+          />
+          <line
+            strokeWidth="2"
+            strokeLinecap="round"
+            className="stroke-primary-400"
+            x1="77.453125"
+            y1="125"
+            x2="172.546875"
+            y2="125"
+          />
+          <line
+            strokeWidth="2"
+            strokeLinecap="round"
+            className="stroke-primary-400"
+            x1="125"
+            y1="77.453125"
+            x2="125"
+            y2="172.546875"
+          />
+          <ellipse
+            className="stroke-primary-400"
+            rx="3"
+            ry="3"
+            strokeWidth="2"
+            fill="white"
+            cx="125"
+            cy="121.17127403846155"
+          />
+          <ellipse
+            className="stroke-primary-400"
+            rx="3"
+            ry="3"
+            strokeWidth="2"
+            fill="white"
+            cx="134.88671875"
+            cy="125"
+          />
+          <ellipse
+            className="stroke-primary-400"
+            rx="3"
+            ry="3"
+            strokeWidth="2"
+            fill="white"
+            cx="125"
+            cy="153.1739783653846"
+          />
+          <ellipse
+            className="stroke-primary-400"
+            rx="3"
+            ry="3"
+            strokeWidth="2"
+            fill="white"
+            cx="79.453125"
+            cy="125"
+          />
+          <text
+            textAnchor="middle"
+            className="text-xs fill-primary-300 tracking-wider"
+            dx="125"
+            dy="51.453125"
+          >
+            2%
+          </text>
+          <text
+            textAnchor="middle"
+            className="text-xs fill-primary-300 tracking-wider"
+            dx="125"
+            dy="67.453125"
+          >
+            Code review
+          </text>
+          <text
+            textAnchor="start"
+            className="text-xs fill-primary-300 tracking-wider"
+            dy="123.5"
+            dx="186.8515625"
+          >
+            13%
+          </text>
+          <text
+            textAnchor="start"
+            className="text-xs fill-primary-300 tracking-wider"
+            dy="139.5"
+            dx="180"
+          >
+            Issues
+          </text>
+          <text
+            textAnchor="middle"
+            className="text-xs fill-primary-300 tracking-wider"
+            dx="125"
+            dy="190.546875"
+          >
+            33%
+          </text>
+          <text
+            textAnchor="middle"
+            className="text-xs fill-primary-300 tracking-wider"
+            dx="125"
+            dy="206.546875"
+          >
+            Pull requests
+          </text>
+          <text
+            textAnchor="end"
+            className="text-xs fill-primary-300 tracking-wider"
+            dy="123.5"
+            dx="56"
+          >
+            52%
+          </text>
+          <text
+            textAnchor="end"
+            className="text-xs fill-primary-300 tracking-wider"
+            dy="139.5"
+            dx="70"
+          >
+            Commits
+          </text>
+        </g>
+      </svg>
       <div className="flex flex-col">
         <div className="flex items-center">
           <span className="text-xs">2024</span>
@@ -275,146 +414,6 @@ const ProjectPactmateContributionsChart = () => {
           <span className="text-xs pb-2">More</span>
         </div>
       </div>
-
-      <svg
-        className="block"
-        xmlns="http://www.w3.org/2000/svg"
-        width="150"
-        viewBox="0 0 196 172"
-      >
-        <title>
-          A graph representing SSakibHossain10's contributions from January 01,
-          2024 to December 31, 2024. The contributions are 52% commits, 33% pull
-          requests, 13% issues, 2% code review.
-        </title>
-        <g transform="translate(-18.25, -38.453125)">
-          <path
-            strokeLinejoin="round"
-            opacity="0.5"
-            strokeWidth="7"
-            className="fill-primary-400 stroke-primary-400"
-            d="M125,123.17127403846155 L132.88671875,125 L125,151.1739783653846 L81.453125,125 z"
-          />
-          <line
-            strokeWidth="2"
-            strokeLinecap="round"
-            className="stroke-primary-400"
-            x1="77.453125"
-            y1="125"
-            x2="172.546875"
-            y2="125"
-          />
-          <line
-            strokeWidth="2"
-            strokeLinecap="round"
-            className="stroke-primary-400"
-            x1="125"
-            y1="77.453125"
-            x2="125"
-            y2="172.546875"
-          />
-          <ellipse
-            className="stroke-primary-400"
-            rx="3"
-            ry="3"
-            strokeWidth="2"
-            fill="white"
-            cx="125"
-            cy="121.17127403846155"
-          />
-          <ellipse
-            className="stroke-primary-400"
-            rx="3"
-            ry="3"
-            strokeWidth="2"
-            fill="white"
-            cx="134.88671875"
-            cy="125"
-          />
-          <ellipse
-            className="stroke-primary-400"
-            rx="3"
-            ry="3"
-            strokeWidth="2"
-            fill="white"
-            cx="125"
-            cy="153.1739783653846"
-          />
-          <ellipse
-            className="stroke-primary-400"
-            rx="3"
-            ry="3"
-            strokeWidth="2"
-            fill="white"
-            cx="79.453125"
-            cy="125"
-          />
-          <text
-            textAnchor="middle"
-            className="text-xs fill-primary-300 tracking-wider"
-            dx="125"
-            dy="51.453125"
-          >
-            2%
-          </text>
-          <text
-            textAnchor="middle"
-            className="text-xs fill-primary-300 tracking-wider"
-            dx="125"
-            dy="67.453125"
-          >
-            Code review
-          </text>
-          <text
-            textAnchor="start"
-            className="text-xs fill-primary-300 tracking-wider"
-            dy="123.5"
-            dx="186.8515625"
-          >
-            13%
-          </text>
-          <text
-            textAnchor="start"
-            className="text-xs fill-primary-300 tracking-wider"
-            dy="139.5"
-            dx="180"
-          >
-            Issues
-          </text>
-          <text
-            textAnchor="middle"
-            className="text-xs fill-primary-300 tracking-wider"
-            dx="125"
-            dy="190.546875"
-          >
-            33%
-          </text>
-          <text
-            textAnchor="middle"
-            className="text-xs fill-primary-300 tracking-wider"
-            dx="125"
-            dy="206.546875"
-          >
-            Pull requests
-          </text>
-          <text
-            textAnchor="end"
-            className="text-xs fill-primary-300 tracking-wider"
-            dy="123.5"
-            dx="56"
-          >
-            52%
-          </text>
-          <text
-            textAnchor="end"
-            className="text-xs fill-primary-300 tracking-wider"
-            dy="139.5"
-            dx="70"
-          >
-            Commits
-          </text>
-        </g>
-      </svg>
     </div>
   );
 };

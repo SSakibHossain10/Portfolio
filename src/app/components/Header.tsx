@@ -46,7 +46,7 @@ const Header = () => {
             <dialog
               popover="auto"
               id="say-hello-choose-account-popover"
-              className="bg-primary-gradient rounded-2xl mt-2 has-[#linkedIn:checked]:[&+div>.linkedIn,&+div>button>.linkedIn]:block has-[#whatsApp:checked]:[&+div>.whatsApp,&+div>button>.whatsApp]:block has-[#email:checked]:[&+div>.email,&+div>button>.email]:block open:[&+div>button]:bg-primary-100/20"
+              className="bg-primary-gradient rounded-2xl mt-2 has-[#linkedIn:checked]:[&+div>.linkedIn,&+div>button>.linkedIn]:block has-[#whatsApp:checked]:[&+div>.whatsApp,&+div>button>.whatsApp]:block has-[#email:checked]:[&+div>.email,&+div>button>.email]:block open:[&+div>button]:bg-primary-100/20 popover-scale-animation"
               style={
                 {
                   positionAnchor: "--say-hello-choose-account-popover-anchor",
