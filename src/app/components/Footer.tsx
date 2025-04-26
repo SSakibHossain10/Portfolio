@@ -51,7 +51,7 @@ const Footer = () => {
             href="mailto:sakibhossain10@gmail.com"
             className="p-4 sm:p-6 rounded-full hover:bg-primary-200/10 active:text-primary-500"
           >
-            <MdOutlineEmail className="size-20 mt-1" />
+            <MdOutlineEmail className="size-20 sm:mt-1" />
           </a>
         </div>
 

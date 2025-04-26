@@ -2,9 +2,21 @@ const Abbout = () => {
   return (
     <section
       id="about"
-      className="w-full max-w-5xl mx-auto min-h-230 bg-primary-100/10 flex flex-col md:flex-row border border-t-0 border-primary-300/10 rounded-b-lg mb-24"
+      className="w-full max-w-5xl mx-auto min-h-230 bg-primary-100/10 block sm:flex flex-row-reverse border border-t-0 border-primary-300/10 rounded-b-lg mb-24 relative"
     >
-      <div className="grow flex flex-col justify-center p-30">
+      <div
+        className="aspect-square border sm:border-0 rounded-full sm:rounded-none flex items-start sm:items-end bg-black/30 sm:bg-transparent overflow-hidden float-right mt-50 mr-10 ml-8 mb-8 sm:mt-0 sm:mr-60 sm:ml-0 sm:mb-0"
+        style={{
+          shapeOutside: "circle(closest-side at 102px 141px)",
+        }}
+      >
+        <img
+          src="/images/picture.webp"
+          alt="Picture"
+          className="sm:block max-h-200 w-160 sm:w-auto mr-20 mt-16"
+        />
+      </div>
+      <div className="grow block sm:flex flex-col justify-center p-20 sm:p-30">
         <h4 className="font-light tracking-widest mb-5">HELLO, I AM</h4>
         <h2 className="mb-14">Sakib Hossain</h2>
         <p className="max-w-530 text-sm tracking-wide last-align-end mb-8">
@@ -67,16 +79,11 @@ const Abbout = () => {
           ).
         </p>
         <p className="max-w-530 text-sm tracking-wide last-align-end">
-          I enjoy building projects from scratch—building UI, writing clean,
-          maintainable code, and focusing on performance, solid architecture,
-          accessibility, and security.
+          I enjoy building projects from scratch—writing clean, scalable code,
+          and focusing on performance, security, accessibility, and a strong
+          architectural foundation
         </p>
       </div>
-      <img
-        src="/images/picture.webp"
-        alt="Picture"
-        className="max-h-200 w-auto mt-auto pr-60"
-      />
     </section>
   );
 };
