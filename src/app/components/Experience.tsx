@@ -13,7 +13,7 @@ const Experiences = () => {
         <div className="flex items-center gap-12">
           <img
             src="/images/bluebay_it_limited_logo.webp"
-            alt="Bluebay IT Limited Logo"
+            alt="Bluebay IT Limited - Built with React and Next.js"
             className="size-20"
           />
           <a
@@ -239,7 +239,7 @@ const Experiences = () => {
         <div className="flex items-center gap-12">
           <img
             src="/images/hubbers_logo.webp"
-            alt="Bluebay IT Limited Logo"
+            alt="Bluebay IT Limited Built - with React and Next.js"
             className="size-20"
           />
           <a

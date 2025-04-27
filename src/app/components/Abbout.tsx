@@ -13,18 +13,18 @@ const Abbout = () => {
         <img
           src="/images/picture.webp"
           alt="Picture"
-          className="sm:block max-h-200 w-160 sm:w-auto mr-20 mt-16"
+          className="sm:block sm:max-h-200 w-160 sm:w-auto mr-20 mt-16"
         />
       </div>
       <div className="grow block sm:flex flex-col justify-center p-20 sm:p-30">
         <h4 className="font-light tracking-widest mb-5">HELLO, I AM</h4>
         <h2 className="mb-14">Sakib Hossain</h2>
-        <p className="max-w-530 text-sm tracking-wide last-align-end mb-8">
+        <h1 className="max-w-530 text-sm tracking-wide last-align-end mb-8">
           I’m Sakib, a
           <b className="text-size-inherit font-semibold"> Frontend</b>
           -focused
           <b className="text-size-inherit font-semibold"> Full-stack </b>
-          developer with
+          Developer with
           <b className="text-size-inherit font-semibold"> 4 years </b>of
           experience, including 2 years of
           <b className="text-size-inherit font-semibold"> job </b>
@@ -77,11 +77,11 @@ const Abbout = () => {
             Mongoose
           </a>
           ).
-        </p>
+        </h1>
         <p className="max-w-530 text-sm tracking-wide last-align-end">
           I enjoy building projects from scratch—writing clean, scalable code,
           and focusing on performance, security, accessibility, and a strong
-          architectural foundation
+          architectural foundation.
         </p>
       </div>
     </section>

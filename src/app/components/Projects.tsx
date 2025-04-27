@@ -40,11 +40,11 @@ const Projects = () => {
 
         <div className="p-20">
           <div className="flex flex-col md:flex-row gap-20 lg:gap-35 mb-18">
-            <div className="flex flex-col gap-16 mt-8">
+            <div className="flex flex-col gap-16 sm:mt-8">
               <div className="flex items-center gap-8">
                 <img
                   src="/images/pdfy-logo.webp"
-                  alt="PDFy Logo"
+                  alt="PDFy - Built with Next.js, MongoDB, PDF.js, Fabric.js, and PDFKit"
                   className="w-26"
                 />
 
@@ -371,7 +371,7 @@ const Projects = () => {
               <div className="flex gap-12">
                 <img
                   src="/images/pactmate-logo.webp"
-                  alt="Pactmate Logo"
+                  alt="Pactmate - Built with Next.js, TailwindCSS, MongoDB, Socket.IO, Stripe, and AWS S3"
                   className="w-30"
                 />
 
