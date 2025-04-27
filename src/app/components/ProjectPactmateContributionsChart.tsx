@@ -2,7 +2,7 @@ const ProjectPactmateContributionsChart = () => {
   return (
     <div className="shrink-0 flex items-center justify-evenly gap-28">
       <svg
-        className="block"
+        className="block overflow-visible"
         xmlns="http://www.w3.org/2000/svg"
         width="150"
         viewBox="0 0 196 172"
@@ -140,7 +140,7 @@ const ProjectPactmateContributionsChart = () => {
           </text>
         </g>
       </svg>
-      <div className="flex flex-col">
+      <div className="flex flex-col overflow-visible">
         <div className="flex items-center">
           <span className="text-xs">2024</span>
           <span className="text-xs ml-35">May</span>

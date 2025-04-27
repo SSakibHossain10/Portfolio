@@ -2,7 +2,7 @@ const ProjectPDFyContributionsChart = () => {
   return (
     <div className="shrink-0 flex flex-col sm:flex-row items-center justify-evenly gap-28">
       <svg
-        className="shrink-0 sm:-mt-28"
+        className="shrink-0 sm:-mt-28 overflow-visible"
         xmlns="http://www.w3.org/2000/svg"
         width="150"
         viewBox="0 0 196 172"
@@ -37,13 +37,6 @@ const ProjectPDFyContributionsChart = () => {
             y1="77.453125"
             x2="125"
             y2="172.546875"
-          />
-          <ellipse
-            className="stroke-primary-400"
-            rx="3"
-            ry="3"
-            strokeWidth="2"
-            fill="white"
           />
           <ellipse
             className="stroke-primary-400"
