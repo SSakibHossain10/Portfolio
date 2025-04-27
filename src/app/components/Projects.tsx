@@ -14,7 +14,10 @@ const Projects = () => {
         PROJECTS
       </h3>
 
-      <div className="w-full bg-primary-100/10 flex flex-col rounded-lg border border-primary-300/10 border-t-primary-300/50 overflow-hidden mb-24">
+      <div
+        id="project-pdfy"
+        className="w-full bg-primary-100/10 flex flex-col rounded-lg border border-primary-300/10 border-t-primary-300/50 overflow-hidden mb-24"
+      >
         <div className="w-full flex items-stretch">
           <img
             src="/images/pdfy-edit-page-tab-portrait-screenshot.webp"
@@ -314,7 +317,10 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="w-full bg-primary-100/10 flex flex-col rounded-lg border border-primary-300/10 border-t-primary-300/40 overflow-hidden">
+      <div
+        id="project-pactmate"
+        className="w-full bg-primary-100/10 flex flex-col rounded-lg border border-primary-300/10 border-t-primary-300/40 overflow-hidden"
+      >
         <div className="w-full flex items-stretch">
           <picture className="grow w-1/3 sm:w-[25%]">
             <source
@@ -387,10 +393,10 @@ const Projects = () => {
               </div>
 
               <p className="text-[13px] tracking-wider leading-20">
-                I built this project for one of my client, marking the beginning
-                of my full-stack journey. I handled everything from scratch—UI
-                design, API development, authentication, real-time messaging,
-                payment integration, testing, and deployment—based on
+                I built this project for one of my clients, marking the
+                beginning of my full-stack journey. I handled everything from
+                scratch—UI design, API development, authentication, real-time
+                messaging, payment integration, testing, and deployment—based on
                 client-provided documentation and references.
               </p>
             </div>

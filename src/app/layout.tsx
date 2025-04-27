@@ -19,12 +19,12 @@ export const metadata: Metadata = {
   title:
     "Sakib Hossain | Frontend-focused Full-stack Developer | React, Next.js Expert",
   description:
-    "Hi, I'm Sakib Hossain — a frontend-focused full-stack developer passionate about building fast, scalable, and high-performance web applications. Specializing in React, Next.js, and modern web technologies. Let's build something great together.",
+    "Hi, I'm Sakib Hossain — a Frontend-focused Full-stack Developer passionate about building fast, scalable, and high-performance web applications. Specializing in React, Next.js, and modern web technologies. Let's build something great together.",
   openGraph: {
     title:
       "Sakib Hossain | Frontend-focused Full-stack Developer | React, Next.js Expert",
     description:
-      "Hi, I'm Sakib Hossain — a frontend-focused full-stack developer passionate about building fast, scalable, and high-performance web applications. Specializing in React, Next.js, and modern web technologies. Let's build something great together.",
+      "Hi, I'm Sakib Hossain — a Frontend-focused Full-stack Developer passionate about building fast, scalable, and high-performance web applications. Specializing in React, Next.js, and modern web technologies. Let's build something great together.",
     url: "https://ssakibhossain10.vercel.app",
     siteName: "Sakib Hossain Portfolio",
     images: {
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     title:
       "Sakib Hossain | Frontend-focused Full-stack Developer | React, Next.js Expert",
     description:
-      "Portfolio of Sakib Hossain, a frontend-focused full-stack developer specializing in React, Next.js, and scalable web apps. Explore projects and experience.",
+      "Portfolio of Sakib Hossain, a Frontend-focused Full-stack Developer specializing in React, Next.js, and scalable web apps. Explore projects and experience.",
     images: {
       url: "/images/preveiw-image.png",
       width: 1200,
@@ -106,7 +106,7 @@ export const metadata: Metadata = {
   },
   assets: "https://ssakibhossain10.vercel.app/images",
   abstract:
-    "Sakib Hossain is a frontend-focused full-stack developer passionate about building fast, scalable, and high-performance web applications. Specializing in React, Next.js, and modern web technologies. Let's build something great together.",
+    "Sakib Hossain is a Frontend-focused Full-stack Developer passionate about building fast, scalable, and high-performance web applications. Specializing in React, Next.js, and modern web technologies. Let's build something great together.",
   appLinks: {
     web: {
       url: "https://ssakibhossain10.vercel.app",
