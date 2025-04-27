@@ -239,11 +239,11 @@ const Experiences = () => {
         <div className="flex items-center gap-12">
           <img
             src="/images/hubbers_logo.webp"
-            alt="Bluebay IT Limited Built - with React and Next.js"
+            alt="Hubbers Built - with React and Next.js"
             className="size-20"
           />
           <a
-            href="https://www.linkedin.com/company/bluebay-it-limited"
+            href="https://www.linkedin.com/company/hubbers"
             target="_blank"
             className="text-md font-semibold underline hover:text-primary-400 active:text-primary-500"
           >
@@ -367,7 +367,7 @@ const Experiences = () => {
               target="_blank"
               className="text-sm hover:text-primary-400 active:text-primary-500"
             >
-              AWS SDK
+              Amazon S3
             </a>
             <a
               href="https://www.npmjs.com/package/firebase"
@@ -500,8 +500,9 @@ const Experiences = () => {
             Hubbers
           </a>{" "}
           website using React & later migrated to Next.js. Gained strong
-          espertise in Frontend development & helped me grow in key areas such
-          as team collaboration, communication, work management & reporting.
+          expertise in Frontend development, integrated OpenAI's GPT-4 API, &
+          helped me grow in key areas such as team collaboration, communication
+          & work management.
         </p>
       </div>
     </section>

@@ -47,7 +47,7 @@ const Skills = () => {
             >
               CSS
             </a>
-            <span className="bg-primary-300 absolute top-0 left-0 h-full w-[96%] -z-10" />
+            <span className="bg-primary-300 absolute top-0 left-0 h-full w-[93%] -z-10" />
           </div>
           <h5 className="tracking-wide">Expert</h5>
         </div>
