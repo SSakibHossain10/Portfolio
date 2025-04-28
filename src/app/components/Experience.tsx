@@ -9,7 +9,7 @@ const Experiences = () => {
       id="experience"
       className="w-full max-w-5xl mx-auto bg-primary-100/10 flex flex-col md:flex-row gap-32 md:gap-0 p-20 sm:px-44 sm:py-30 md:px-30 border border-primary-300/10 rounded-lg mb-26"
     >
-      <div className="order-2 md:order-1 w-full md:w-[36%] flex flex-col gap-12">
+      <div className="order-3 md:order-1 w-full md:w-[36%] flex flex-col gap-12">
         <div className="flex items-center gap-12">
           <img
             src="/images/bluebay_it_limited_logo.webp"
@@ -235,7 +235,7 @@ const Experiences = () => {
         />
       </div>
 
-      <div className="order-3 w-full md:w-[36%] flex flex-col gap-12">
+      <div className="order-2 w-full md:w-[36%] flex flex-col gap-12">
         <div className="flex items-center gap-12">
           <img
             src="/images/hubbers_logo.webp"
