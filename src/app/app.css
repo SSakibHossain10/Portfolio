@@ -31,8 +31,11 @@
       color-mix(in oklab, var(--color-primary-100) 5%, transparent);
   }
   html {
-    @apply max-w-screen overflow-auto scroll-smooth;
-    font-family: system-ui;
+    @apply overflow-auto;
+  }
+  body {
+    @apply w-dvw h-dvh overflow-auto scroll-smooth;
+    font-family: system-ui, sans-serif;
   }
   h1 {
     @apply text-3xl;
@@ -86,6 +89,8 @@
   background: linear-gradient(
     var(--gradient-angle),
     rgb(0 48 46),
+    rgb(0 48 46),
+    rgb(0 8 34),
     rgb(0 8 34),
     rgb(0 48 46),
     rgb(0 11 47)
