@@ -1,4 +1,7 @@
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import "./app.css";
 
 export const viewport: Viewport = {
@@ -137,6 +140,22 @@ export default function RootLayout({
     <html lang="en">
       <body className="text-primary-300 bg-primary-gradient max-w-dvw">
         {children}
+
+        <Analytics />
+        <SpeedInsights />
+
+        {/* Google tag (gtag.js) */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-5L0D8331Q1"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5L0D8331Q1');`}
+        </Script>
       </body>
     </html>
   );
