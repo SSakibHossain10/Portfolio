@@ -1,5 +1,6 @@
 import { BiLogoPlayStore } from "react-icons/bi";
 import { BsBrowserChrome } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import ProjectPactmateContributionsChart from "./ProjectPactmateContributionsChart";
 import ProjectPDFyContributionsChart from "./ProjectPDFyContributionsChart";
@@ -43,7 +44,7 @@ const Projects = () => {
 
         <div className="p-20">
           <div className="flex flex-col md:flex-row gap-20 lg:gap-35 mb-18">
-            <div className="flex flex-col gap-16 sm:mt-8">
+            <div className="flex flex-col gap-16 sm:mt-4">
               <div className="flex items-center gap-8">
                 <img
                   src="/images/pdfy-logo.webp"
@@ -52,6 +53,14 @@ const Projects = () => {
                 />
 
                 <h5 className="grow font-bold tracking-widest">PDFy</h5>
+
+                <a
+                  href="https://github.com/SSakibHossain10/PDFy-Sample"
+                  target="_blank"
+                  className="text-sm font-semibold tracking-wider flex items-center gap-4 mr-4 hover:underline active:text-primary-400"
+                >
+                  <FaGithub className="size-16 p-1" /> Code ↗
+                </a>
 
                 <a
                   href="https://play.google.com/store/apps/details?id=com.pdfy.app"
@@ -403,7 +412,7 @@ const Projects = () => {
             <ProjectPactmateContributionsChart />
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-20 md:gap-y-18 gap-x-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-20 md:gap-y-14 gap-x-8">
             <div className="flex flex-col gap-8">
               <h6 className="font-semibold">👨‍💻 My Role</h6>
 
@@ -436,6 +445,45 @@ const Projects = () => {
                 <li>
                   <b className="font-semibold">Testing</b> &{" "}
                   <b className="font-semibold">Deployment</b>
+                </li>
+              </ul>
+            </div>
+
+            <div className="flex flex-col gap-8">
+              <h6 className="font-semibold">🌟 Key Features</h6>
+
+              <p className="italic">
+                Core functionalities I implemented while building Pactmate from
+                scratch:
+              </p>
+
+              <ul className="text-xs leading-22 list-disc pl-16">
+                <li>
+                  Email-based authentication with{" "}
+                  <b className="font-semibold">verification code</b>
+                </li>
+                <li>
+                  User <b className="font-semibold">authentication</b>{" "}
+                  management using JWT
+                </li>
+                <li>
+                  Real-time 1:1 <b className="font-semibold">messaging</b> using
+                  Socket.IO
+                </li>
+                <li>
+                  <b className="font-semibold">Media stores</b> handled through
+                  AWS S3 bucket
+                </li>
+                <li>
+                  <b className="font-semibold">Payment processing</b> integrated
+                  with Stripe
+                </li>
+                <li>
+                  <b className="font-semibold">Sending emails</b> through Resend
+                </li>
+                <li>
+                  Weekly emails automated via Vercel{" "}
+                  <b className="font-semibold">Cron Jobs</b>
                 </li>
               </ul>
             </div>
@@ -481,45 +529,6 @@ const Projects = () => {
                 <li>
                   <b className="font-semibold">Vercel</b> for deployment & corn
                   job
-                </li>
-              </ul>
-            </div>
-
-            <div className="flex flex-col gap-8">
-              <h6 className="font-semibold">🌟 Key Features</h6>
-
-              <p className="italic">
-                Core functionalities I implemented while building Pactmate from
-                scratch:
-              </p>
-
-              <ul className="text-xs leading-22 list-disc pl-16">
-                <li>
-                  Email-based authentication with{" "}
-                  <b className="font-semibold">verification code</b>
-                </li>
-                <li>
-                  User <b className="font-semibold">authentication</b>{" "}
-                  management using JWT
-                </li>
-                <li>
-                  Real-time 1:1 <b className="font-semibold">messaging</b> using
-                  Socket.IO
-                </li>
-                <li>
-                  <b className="font-semibold">Media stores</b> handled through
-                  AWS S3 bucket
-                </li>
-                <li>
-                  <b className="font-semibold">Payment processing</b> integrated
-                  with Stripe
-                </li>
-                <li>
-                  <b className="font-semibold">Sending emails</b> through Resend
-                </li>
-                <li>
-                  Automated weekly emails every Wednesday via Vercel{" "}
-                  <b className="font-semibold">Cron Jobs</b>
                 </li>
               </ul>
             </div>
