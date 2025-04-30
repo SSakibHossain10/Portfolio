@@ -34,7 +34,6 @@
     @apply overflow-auto;
   }
   body {
-    @apply w-dvw h-dvh overflow-auto scroll-smooth;
     font-family: system-ui, sans-serif;
   }
   h1 {
@@ -88,7 +87,7 @@
 @utility bg-primary-gradient {
   background: linear-gradient(
     var(--gradient-angle),
-    rgb(0 48 46),
+    rgb(0 11 47),
     rgb(0 48 46),
     rgb(0 8 34),
     rgb(0 8 34),

@@ -6,7 +6,7 @@ import { TiArrowSortedDown } from "react-icons/ti";
 
 const Header = () => {
   return (
-    <header className="bg-primary-100/10 h-36">
+    <header className="shrink-0 bg-primary-100/10 h-36">
       <div className="h-full flex justify-between items-center px-8 max-w-[1014px] mx-auto">
         <Link
           href="/"

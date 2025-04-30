@@ -10,8 +10,8 @@ export const viewport: Viewport = {
   width: "device-width",
   height: "device-height",
   initialScale: 1,
-  maximumScale: 1,
   minimumScale: 1,
+  maximumScale: 2,
   userScalable: true,
   interactiveWidget: "resizes-visual",
   viewportFit: "auto",
@@ -138,7 +138,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="text-primary-300 bg-primary-gradient max-w-dvw">
+      <body className="w-svw h-lvh flex flex-col bg-primary-gradient text-primary-300 overflow-auto scroll-smooth">
         {children}
 
         <Analytics />
