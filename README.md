@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <h1>👋 Hello, I’m Sakib Hossain</h1>
+  <p>Frontend-focused Full-stack Developer specializing in React & Next.js</p>
+  <p>
+    <a href="https://ssakibhossain10.vercel.app" target="_blank">🌐 Portfolio</a> |
+    <a href="https://linkedin.com/in/ssakibhossain10" target="_blank">💼 LinkedIn</a> |
+    <a href="mailto:ssakibhossain10@gmail.com">📧 Email</a>
+  </p>
+</div>
 
-## Getting Started
+---
 
-First, run the development server:
+## 🧑‍💻 About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I’m Sakib, a Frontend-focused Full-stack Developer with 4 years of experience, including 2 years of job experience as a professional Frontend developer.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I specialize in React and Next.js, with hands-on Backend experience using Next.js and MongoDB (Mongoose). I love building projects from scratch — focusing on clean, scalable code, performance, security, accessibility, and strong architecture.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Tech Stack
 
-## Learn More
+<span><img src="https://img.shields.io/badge/HTML-F06529?style=flat&logo=html5&logoColor=white"/></span>
+<span><img src="https://img.shields.io/badge/CSS-2965f1?style=flat&logo=css3&logoColor=white"/></span>
+<span><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/></span>
+<span><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white"/></span>
+<span><img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"/></span>
+<span><img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white"/></span>
+<span><img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white"/></span>
+<span><img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white"/></span>
+<span><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white"/></span>
+<span><img src="https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white"/></span>
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💼 Experience
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🧠 Hubbers – Frontend Developer
 
-## Deploy on Vercel
+📍 Remote | 🗓️ Oct 2022 – Nov 2023  
+Worked on Hubbers website and admin panel using React & Next.js. Built UI, integrated OpenAI GPT-4, and contributed to complex frontend features.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🛍️ Bluebay IT Limited – Junior Frontend Developer
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📍 On-site | 🗓️ Jun 2021 – Feb 2022  
+Built admin panel and e-commerce platforms using React and Next.js. Strengthened modern frontend skills during 9-month tenure (incl. 4-month internship).
+
+---
+
+## 🚀 Projects
+
+### [📄 PDFy](https://ssakibhossain10.vercel.app/#project-pdfy)
+
+A powerful web-based PDF editor built with Next.js, PDF.js, Fabric.js, and PDFKit.  
+Supports editing and creating PDFs with text, images, vectors, forms, and more.  
+**Role:** Solo Developer • Full-stack • Performance-focused • Android TWA included
+
+### [💬 Pactmate](https://ssakibhossain10.vercel.app/#project-pactmate)
+
+Client project with real-time chat, Stripe payments, media uploads, and more.  
+Built using Next.js, MongoDB, and Socket.IO.  
+**Role:** Full-stack Developer • UI/UX • API • Deployment
