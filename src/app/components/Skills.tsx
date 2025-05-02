@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="w-full max-w-5xl mx-auto bg-primary-100/10 flex flex-col md:flex-row gap-20 md:gap-0 p-20 sm:px-44 sm:py-30 md:px-30 border border-primary-300/10 rounded-lg mb-24"
+      className="w-full max-w-5xl mx-auto bg-primary-100/5 flex flex-col md:flex-row gap-20 md:gap-0 p-20 sm:px-44 sm:py-30 md:px-30 border border-primary-300/10 rounded-lg mb-24"
     >
       <div className="order-2 md:order-1 w-full md:w-[34%] flex flex-col gap-20">
         <div className="grow flex items-center gap-10">

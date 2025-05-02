@@ -17,7 +17,7 @@ const Projects = () => {
 
       <div
         id="project-pdfy"
-        className="w-full bg-primary-100/10 flex flex-col rounded-lg border border-primary-300/10 border-t-primary-300/50 overflow-hidden mb-24"
+        className="w-full bg-primary-100/5 flex flex-col rounded-lg border border-primary-300/10 border-t-primary-300/50 overflow-hidden mb-24"
       >
         <div className="w-full flex items-stretch">
           <img
@@ -328,7 +328,7 @@ const Projects = () => {
 
       <div
         id="project-pactmate"
-        className="w-full bg-primary-100/10 flex flex-col rounded-lg border border-primary-300/10 border-t-primary-300/40 overflow-hidden"
+        className="w-full bg-primary-100/5 flex flex-col rounded-lg border border-primary-300/10 border-t-primary-300/40 overflow-hidden"
       >
         <div className="w-full flex items-stretch">
           <picture className="grow w-1/3 sm:w-[25%]">
