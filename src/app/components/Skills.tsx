@@ -1,7 +1,12 @@
 import { BiLogoTypescript } from "react-icons/bi";
 import { IoLogoCss3, IoLogoHtml5 } from "react-icons/io";
-import { RiJavascriptFill, RiNodejsLine, RiReactjsLine } from "react-icons/ri";
-import { SiMongodb, SiNextdotjs } from "react-icons/si";
+import {
+  RiJavascriptFill,
+  RiReactjsLine,
+  RiTailwindCssFill,
+} from "react-icons/ri";
+import { SiNextdotjs } from "react-icons/si";
+import { TbBrandRedux } from "react-icons/tb";
 
 const Skills = () => {
   return (
@@ -18,7 +23,7 @@ const Skills = () => {
           >
             <IoLogoHtml5 className="size-22" />
           </a>
-          <div className="grow h-18 flex items-center bg-primary-100/10 pl-6 relative">
+          <div className="grow h-20 flex items-center bg-primary-100/10 pl-6 relative">
             <a
               href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
               target="_blank"
@@ -28,7 +33,6 @@ const Skills = () => {
             </a>
             <span className="bg-primary-300 absolute top-0 left-0 h-full w-[85%] -z-10" />
           </div>
-          <h5 className="tracking-wide">Expert</h5>
         </div>
 
         <div className="grow flex items-center gap-10">
@@ -39,7 +43,7 @@ const Skills = () => {
           >
             <IoLogoCss3 className="size-22" />
           </a>
-          <div className="grow h-18 flex items-center bg-primary-100/10 pl-6 relative">
+          <div className="grow h-20 flex items-center bg-primary-100/10 pl-6 relative">
             <a
               href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics"
               target="_blank"
@@ -49,7 +53,26 @@ const Skills = () => {
             </a>
             <span className="bg-primary-300 absolute top-0 left-0 h-full w-[93%] -z-10" />
           </div>
-          <h5 className="tracking-wide">Expert</h5>
+        </div>
+
+        <div className="grow flex items-center gap-10">
+          <a
+            href="https://tailwindcss.com"
+            target="_blank"
+            className="hover:text-primary-400 active:text-primary-500"
+          >
+            <RiTailwindCssFill className="size-22 p-1" />
+          </a>
+          <div className="grow h-20 flex items-center bg-primary-100/10 pl-6 relative">
+            <a
+              href="https://tailwindcss.com"
+              target="_blank"
+              className="text-sm font-semibold tracking-wide text-primary-950 hover:text-primary-900 active:text-primary-800"
+            >
+              Tailwind CSS
+            </a>
+            <span className="bg-primary-300 absolute top-0 left-0 h-full w-[82%] -z-10" />
+          </div>
         </div>
 
         <div className="grow flex items-center gap-10">
@@ -60,7 +83,7 @@ const Skills = () => {
           >
             <RiJavascriptFill className="size-22" />
           </a>
-          <div className="grow h-18 flex items-center bg-primary-100/10 pl-6 relative">
+          <div className="grow h-20 flex items-center bg-primary-100/10 pl-6 relative">
             <a
               href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting"
               target="_blank"
@@ -70,28 +93,6 @@ const Skills = () => {
             </a>
             <span className="bg-primary-300 absolute top-0 left-0 h-full w-[92%] -z-10" />
           </div>
-          <h5 className="tracking-wide">Expert</h5>
-        </div>
-
-        <div className="grow flex items-center gap-10">
-          <a
-            href="https://www.typescriptlang.org"
-            target="_blank"
-            className="hover:text-primary-400 active:text-primary-500"
-          >
-            <BiLogoTypescript className="size-22" />
-          </a>
-          <div className="grow h-18 flex items-center bg-primary-100/10 pl-6 relative">
-            <a
-              href="https://www.typescriptlang.org"
-              target="_blank"
-              className="text-sm font-semibold tracking-wide text-primary-950 hover:text-primary-900 active:text-primary-800"
-            >
-              Typescript
-            </a>
-            <span className="bg-primary-300 absolute top-0 left-0 h-full w-[64%] -z-10" />
-          </div>
-          <h5>Intermediate</h5>
         </div>
       </div>
 
@@ -109,13 +110,33 @@ const Skills = () => {
       <div className="order-3 w-full md:w-[34%] flex flex-col gap-20">
         <div className="grow flex items-center gap-10">
           <a
+            href="https://www.typescriptlang.org"
+            target="_blank"
+            className="hover:text-primary-400 active:text-primary-500"
+          >
+            <BiLogoTypescript className="size-22" />
+          </a>
+          <div className="grow h-20 flex items-center bg-primary-100/10 pl-6 relative">
+            <a
+              href="https://www.typescriptlang.org"
+              target="_blank"
+              className="text-sm font-semibold tracking-wide text-primary-950 hover:text-primary-900 active:text-primary-800"
+            >
+              Typescript
+            </a>
+            <span className="bg-primary-300 absolute top-0 left-0 h-full w-[66%] -z-10" />
+          </div>
+        </div>
+
+        <div className="grow flex items-center gap-10">
+          <a
             href="https://react.dev"
             target="_blank"
             className="hover:text-primary-400 active:text-primary-500"
           >
             <RiReactjsLine className="size-22" />
           </a>
-          <div className="grow h-18 flex items-center bg-primary-100/10 pl-6 relative">
+          <div className="grow h-20 flex items-center bg-primary-100/10 pl-6 relative">
             <a
               href="https://react.dev"
               target="_blank"
@@ -125,7 +146,26 @@ const Skills = () => {
             </a>
             <span className="bg-primary-300 absolute top-0 left-0 h-full w-[92%] -z-10" />
           </div>
-          <h5 className="tracking-wide">Expert</h5>
+        </div>
+
+        <div className="grow flex items-center gap-10">
+          <a
+            href="https://redux-toolkit.js.org"
+            target="_blank"
+            className="hover:text-primary-400 active:text-primary-500"
+          >
+            <TbBrandRedux className="size-22" />
+          </a>
+          <div className="grow h-20 flex items-center bg-primary-100/10 pl-6 relative">
+            <a
+              href="https://redux-toolkit.js.org"
+              target="_blank"
+              className="text-sm font-semibold tracking-wide text-primary-950 hover:text-primary-900 active:text-primary-800"
+            >
+              Redux
+            </a>
+            <span className="bg-primary-300 absolute top-0 left-0 h-full w-[80%] -z-10" />
+          </div>
         </div>
 
         <div className="grow flex items-center gap-10">
@@ -136,7 +176,7 @@ const Skills = () => {
           >
             <SiNextdotjs className="size-22 p-2" />
           </a>
-          <div className="grow h-18 flex items-center bg-primary-100/10 pl-6 relative">
+          <div className="grow h-20 flex items-center bg-primary-100/10 pl-6 relative">
             <a
               href="https://nextjs.org"
               target="_blank"
@@ -146,58 +186,6 @@ const Skills = () => {
             </a>
             <span className="bg-primary-300 absolute top-0 left-0 h-full w-[93%] -z-10" />
           </div>
-          <h5 className="tracking-wide">Expert</h5>
-        </div>
-
-        <div className="grow flex items-center gap-10">
-          <a
-            href="https://nodejs.org"
-            target="_blank"
-            className="hover:text-primary-400 active:text-primary-500"
-          >
-            <RiNodejsLine className="size-22 p-1" />
-          </a>
-          <div className="grow h-18 flex items-center bg-primary-100/10 pl-6 relative">
-            <a
-              href="https://nodejs.org"
-              target="_blank"
-              className="text-sm font-semibold tracking-wide text-primary-950 hover:text-primary-900 active:text-primary-800"
-            >
-              Node.js
-            </a>
-            <span className="bg-primary-300 absolute top-0 left-0 h-full w-[29%] -z-10" />
-          </div>
-          <h5>Beginner</h5>
-        </div>
-
-        <div className="grow flex items-center gap-10">
-          <a
-            href="https://www.mongodb.com"
-            target="_blank"
-            className="hover:text-primary-400 active:text-primary-500"
-          >
-            <SiMongodb className="size-22" />
-          </a>
-          <div className="grow h-18 flex items-center bg-primary-100/10 pl-6 relative">
-            <h6 className="text-sm text-nowrap font-semibold md:tracking-[-1px] lg:tracking-normal">
-              <a
-                href="https://mongoosejs.com"
-                target="_blank"
-                className="text-primary-950 hover:text-primary-900 active:text-primary-800"
-              >
-                Mongoose
-              </a>{" "}
-              <a
-                href="https://www.mongodb.com"
-                target="_blank"
-                className="text-primary-950 hover:text-primary-900 active:text-primary-800"
-              >
-                (MongoDB)
-              </a>
-            </h6>
-            <span className="bg-primary-300 absolute top-0 left-0 h-full w-[38%] -z-10" />
-          </div>
-          <h5>Beginner</h5>
         </div>
       </div>
     </section>
