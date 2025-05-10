@@ -19,15 +19,13 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ssakibhossain10.vercel.app"),
-  title:
-    "Sakib Hossain | Frontend-focused Full-stack Developer | React, Next.js Expert",
+  title: "Sakib Hossain | Frontend Developer | React, Next.js Expert",
   description:
-    "Hi, I'm Sakib Hossain — a Frontend-focused Full-stack Developer passionate about building fast, scalable, and high-performance web applications. Specializing in React, Next.js, and modern web technologies. Let's build something great together.",
+    "Hi, I'm Sakib Hossain — a Frontend Developer passionate about building fast, scalable, and high-performance web applications. Specializing in React, Next.js, and modern web technologies. Let's build something great together.",
   openGraph: {
-    title:
-      "Sakib Hossain | Frontend-focused Full-stack Developer | React, Next.js Expert",
+    title: "Sakib Hossain | Frontend Developer | React, Next.js Expert",
     description:
-      "Hi, I'm Sakib Hossain — a Frontend-focused Full-stack Developer passionate about building fast, scalable, and high-performance web applications. Specializing in React, Next.js, and modern web technologies. Let's build something great together.",
+      "Hi, I'm Sakib Hossain — a Frontend Developer passionate about building fast, scalable, and high-performance web applications. Specializing in React, Next.js, and modern web technologies. Let's build something great together.",
     url: "https://ssakibhossain10.vercel.app",
     siteName: "Sakib Hossain Portfolio",
     images: {
@@ -50,10 +48,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title:
-      "Sakib Hossain | Frontend-focused Full-stack Developer | React, Next.js Expert",
+    title: "Sakib Hossain | Frontend Developer | React, Next.js Expert",
     description:
-      "Portfolio of Sakib Hossain, a Frontend-focused Full-stack Developer specializing in React, Next.js, and scalable web apps. Explore projects and experience.",
+      "Portfolio of Sakib Hossain, a Frontend Developer passionate about building fast, scalable, and high-performance web applications. Specializing in React, Next.js, and modern web technologies. Let's build something great together.",
     images: {
       url: "/images/preveiw-image.png",
       width: 1200,

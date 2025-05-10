@@ -10,8 +10,8 @@ import { MdOutlineEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <footer className="shrink-0 bg-primary-100/5 h-40 border-t border-primary-300/10">
-      <div className="h-full flex justify-between items-center px-8 max-w-[1052px] mx-auto">
-        <div className="flex sm:gap-4 overflow-x-auto scrollbar-hidden">
+      <div className="h-full flex justify-between items-center px-8 max-w-[1052px] mx-auto overflow-x-auto scrollbar-hidden">
+        <div className="grow max-w-[230px] flex justify-between">
           <a
             href="https://github.com/SSakibHossain10"
             target="_blank"
@@ -55,7 +55,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <h6 className="text-2xs sm:text-xs tracking-tighter sm:tracking-normal px-8">
+        <h6 className="shrink-0 text-2xs sm:text-xs tracking-tighter sm:tracking-normal px-8">
           Copyright © 2025 - All rights reserved
         </h6>
       </div>
