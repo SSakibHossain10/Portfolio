@@ -1,6 +1,6 @@
 <div align="center">
   <h1>👋 Hello, I’m Sakib Hossain</h1>
-  <p>Frontend-focused Full-stack Developer specializing in React & Next.js</p>
+  <p>Frontend Developer specializing in React & Next.js</p>
   <p>
     <a href="https://ssakibhossain10.vercel.app" target="_blank">🌐 Portfolio</a> |
     <a href="https://linkedin.com/in/ssakibhossain10" target="_blank">💼 LinkedIn</a> |
