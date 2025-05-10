@@ -12,9 +12,11 @@
 
 ## 🧑‍💻 About Me
 
-I’m Sakib, a Frontend-focused Full-stack Developer with 4 years of experience, including 2 years of job experience as a professional Frontend developer.
+I’m Sakib, a Frontend Developer with 4 years of experience, including 2 years of job experience as a professional Frontend developer.  
+I specialize in building performant and scalable web applications using **React**, **Next.js**, **TypeScript**, and **Tailwind CSS**.
 
-I specialize in React and Next.js, with hands-on Backend experience using Next.js and MongoDB (Mongoose). I love building projects from scratch — focusing on clean, scalable code, performance, security, accessibility, and strong architecture.
+I focus on writing clean, maintainable code with attention to **performance**, **accessibility**, and **UI/UX**.  
+I'm experienced in building apps from scratch — including **complex state management**, **responsive design**, and **integration with modern APIs and backend services**.
 
 ---
 
